@@ -15,4 +15,10 @@ print("\n" + "="*30)
 print(f"Aparelho: {aparelho}")
 print(f"Consumo estimado: {consumo_mensal:.2f} kWh/mês")
 print(f"Custo mensal estimado: R$ {custo_estimado:.2f} (Tarifa: R$ 0,75/kWh)")
+
+if consumo_mensal > 40:
+    print("Aviso: Este aparelho tem um consumo considerado alto.")
+else:
+    print("Nota: Este aparelho tem um consumo considerado baixo/moderado.")
+
 print("="*30)
