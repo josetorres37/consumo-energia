@@ -1,5 +1,5 @@
 # Solicitando os dados do usuário
-aparelho = input("Digite o nome do aparelho (ex: Geladeira): ")
+aparelho = input("Digite o nome do aparelho: ")
 potencia = float(input(f"Digite a potência do(a) {aparelho} em Watts (W): "))
 horas_dia = float(input(f"Digite o tempo médio de uso diário em horas: "))
 
